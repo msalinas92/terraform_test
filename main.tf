@@ -10,7 +10,7 @@ provider "aws" {
   secret_key = "${var.AWS_SECRET_ACCESS_KEY}"
   region     = "us-east-1"
 }
-
+/*
 resource "aws_vpc" "bizware_vpc" {
   cidr_block = "172.16.0.0/16"
 
@@ -50,4 +50,4 @@ resource "aws_instance" "bizware-1" {
   credit_specification {
     cpu_credits = "unlimited"
   }
-}
+}*/
